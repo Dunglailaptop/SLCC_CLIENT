@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faUserPlus,faChartLine,
-} from "@fortawesome/free-solid-svg-icons";
+
 
 const Dropdownhead = () => {
   return (

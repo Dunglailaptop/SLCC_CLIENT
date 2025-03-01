@@ -1,6 +1,6 @@
 
 import ModalPopUp from "../../components/Modal/ModalPopUp";
-import PrintReport from "../Report/PrintReport";
+
 import BarSreach from "./BarSreach";
 import Paginationbar from "./Paginationbar";
 

@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import { Button, Flex, Modal } from "antd";
-import { PrintReport } from "../../page";
 import { useReactToPrint } from "react-to-print";
 import TriageForm from "../../page/Report/TriageForm";
 import { samplePatientData } from "../../ultis/menu";
@@ -19,7 +18,7 @@ const ModalPopUp: React.FC = () => {
   };
 
   const [open, setOpen] = useState(false);
-  const [openResponsive, setOpenResponsive] = useState(false);
+  
 
   return (
     <Flex vertical gap="middle" align="flex-start">
