@@ -25,7 +25,7 @@ const TableList = () => {
         </thead>
         <tbody className="divide-y divide-gray-100">
           {array.map((item) => (
-            <tr className="bg-white">
+            <tr className="bg-white hover:bg-gray-200">
               <td className="w-24 p-3 text-sm text-gray-700  whitespace-nowrap">
                  {item}
               </td>

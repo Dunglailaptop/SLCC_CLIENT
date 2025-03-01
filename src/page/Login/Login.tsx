@@ -9,7 +9,7 @@ const Login = () => {
     // Xử lý logic submit ở đây nếu cần
 
     // Chuyển hướng sang trang Menu
-    navigate("/");
+    navigate("/Home");
   };
 
 
@@ -21,7 +21,7 @@ const Login = () => {
           <h1 className="text-4xl font-bold text-gray-800 mb-6">Đăng nhập</h1>
           <p className="text-gray-500 mb-8">Đăng nhập tài khoản của bạn.</p>
           
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <div className="flex items-center border rounded bg-gray-100">
                 <div className="px-3 py-2 bg-gray-200 border-r">
